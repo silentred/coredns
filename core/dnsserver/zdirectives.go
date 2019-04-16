@@ -46,4 +46,7 @@ var Directives = []string{
 	"erratic",
 	"whoami",
 	"on",
+	"fallback",
+	"pdsql_sqlite",
+	"pdsql",
 }

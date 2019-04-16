@@ -7,7 +7,7 @@ BUILDOPTS:=-v
 GOPATH?=$(HOME)/go
 PRESUBMIT:=core coremain plugin test request
 MAKEPWD:=$(dir $(realpath $(firstword $(MAKEFILE_LIST))))
-CGO_ENABLED:=0
+CGO_ENABLED:=1
 
 all: coredns
 
